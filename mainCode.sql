@@ -178,7 +178,7 @@ insert into account values (45002000, 2500 , 301100 , 11112000);
 insert into account values(45002001, 12300 , 301200 , 11112001);
 insert into account values(45002002, 54600 , 301300 , 11112002);
 insert into account values(45002003, 94000 , 301300 , 11112003);
-insert into debit_acc values ( 45002003 ,0.05);
+insert into debit_acc values ( 45002003,0.05);
 insert into current_acc values (45002002, 10101010);
 insert into saving_acc values (45002001, '5 years');
 
@@ -189,13 +189,13 @@ insert into loan values (2,155000, '7 years',11112005,301300);
 insert into loan values (3,250000, '3 years',11112003,301200);
 insert into student_loans values( 1 , 202011555,2500);
 insert into personal_loans values( 2, 'Majd COMP');
-insert into home_equity_loans values (3 , 'Car Contract');
+insert into home_equity_loans values (3, 'Car Contract');
 
 -- Financial_transacctions Insertion
 
-insert into Financial_transacctions values( 100, 'withdraw' , 2000, 'dollar',45002000);
+insert into Financial_transacctions values( 100, 'withdraw', 2000, 'dollar',45002000);
 insert into Financial_transacctions values( 102, 'Transfer',6000, 'Shekel, 45002003);
-insert into Financial_transacctions values( 101, 'deposit' , 1000, 'JDinnar',45002002);
+insert into Financial_transacctions values( 101, 'deposit', 1000, 'JDinnar',45002002);
 insert into Financial_transacctions values(  102, 'deposit',2000, 'Shekel, 45002003);
 insert into Financial_transacctions values( 102, 'withdraw',15000, 'Shekel, 45002003);
 
